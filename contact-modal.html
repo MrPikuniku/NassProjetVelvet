@@ -1,0 +1,47 @@
+<!-- contact.html -->
+<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nom" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+                    </div>
+                    <div class="mb-3">
+                        <label for="prenom" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Votre email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Genre</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="genre" id="homme" value="homme">
+                            <label class="form-check-label" for="homme">Homme</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="genre" id="femme" value="femme">
+                            <label class="form-check-label" for="femme">Femme</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sujet" class="form-label">Sujet</label>
+                        <input type="text" class="form-control" id="sujet" placeholder="Sujet de votre message">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Votre message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Tapez votre message ici..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

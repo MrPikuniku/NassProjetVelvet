@@ -1,0 +1,9 @@
+/* Ajout du CSS pour l'image de fond */
+        .background-image {
+            background-image: url("img/fond_footer.png"); /* Remplacez par le chemin de votre image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 50px 0; /* Ajustez le padding selon vos besoins */
+        }
+    
